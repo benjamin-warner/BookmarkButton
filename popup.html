@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bookmark Button</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="popup.js"></script>
+    <style type="text/css">
+      li{list-style: none;} 
+      a{color: inherit; text-decoration: none;text-overflow: ellipsis;} 
+      ul{padding: 0;}
+      div {
+        width: 400px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+      }
+    </style>
+  </head>
+  <body style="width: 400px">
+    <button id="addNewBookmark">Add current page</button>    
+    <div id="bookmarks"></div>
+  </body>
+</html>
